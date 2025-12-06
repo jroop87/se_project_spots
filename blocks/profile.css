@@ -59,6 +59,10 @@
   border-radius: 90px;
 }
 
+.profile__edit-button:hover {
+  color: #212121;
+}
+
 .profile__add-button {
   display: flex;
   margin-left: auto;
@@ -75,6 +79,10 @@
   gap: 8px;
   justify-content: center;
   align-items: center;
+}
+
+.profile__add-button:hover {
+  opacity: 80%;
 }
 
 @media screen and (max-width: 627px) {
